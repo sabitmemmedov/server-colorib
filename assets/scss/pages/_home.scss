@@ -1,0 +1,340 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #343a40 !important;
+    padding: 8px 0;
+}
+
+nav {
+    background-color: transparent !important;
+}
+
+.bg-body-tertiary {
+    background-color: transparent !important;
+}
+
+.nav-link {
+    color: #fff !important;
+}
+
+.registerbtn {
+    background-color: transparent;
+    color: #fff;
+    border-radius: 0;
+    border: 1px solid #7CBD1E !important;
+
+    &:hover {
+        background-color: #7CBD1E;
+    }
+
+}
+
+.loginbtn {
+    border-radius: 0;
+    color: #fff;
+    background-color: #7CBD1E;
+    border: 1px solid #7CBD1E !important;
+
+    &:hover {
+        background-color: #6fab1b;
+    }
+}
+
+.nav-item:hover {
+    .dropdown-menu {
+        display: block !important;
+    }
+}
+
+
+
+//////////////////////////////////main
+
+
+#sec-one {
+    display: flex;
+    height: auto;
+    align-items: center;
+    background: url("/assets/img/hero_bg_1.jpg");
+
+    .sec-one-content {
+        display: flex;
+        justify-content: center;
+        padding: 80px 0;
+
+        .sec-one-main-content {
+            text-align: center;
+            padding: 80px 0;
+
+            h1 {
+                font-size: 80px;
+                color: #fff;
+                font-weight: 300;
+                letter-spacing: 1px;
+            }
+
+            p {
+                font-size: 24px;
+                color: #fff;
+            }
+
+            .sec-one-btns {
+                display: flex;
+                gap: 10px;
+                justify-content: center;
+                flex-wrap: wrap;
+
+                .button1 {
+                    height: 58px;
+                    width: 172px;
+                    border: 1px solid #7cbd1e;
+                    background-color: #7cbd1e;
+                    color: #fff;
+                }
+
+                .button2 {
+                    height: 58px;
+                    width: 187px;
+                    border: 1px solid #fff;
+                    background-color: transparent;
+                    color: #fff;
+                }
+            }
+
+        }
+    }
+}
+
+#sec-two {
+    padding: 80px 0;
+
+    .sec-two-content {
+        padding: 40px 0;
+
+        h2 {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .cards {
+            .cardd {
+                margin: 20px 0;
+
+                .card-content {
+                    padding: 86px 0 !important;
+                    text-align: center;
+                    border: 1px solid green;
+                    width: 330px;
+                    margin: 0 auto;
+
+                    i {
+                        color: #6fab1b;
+                        font-size: 60px;
+                    }
+
+                    h4 {
+                        margin-top: 30px;
+                    }
+
+                    button {
+                        width: 141px;
+                        height: 42px;
+                        background-color: #6fab1b;
+                        border: 1px solid #6fab1b;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#sec-three{
+    padding: 60px 0;
+    background: url("/assets/img/hero_bg_3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    .sec-three-content{
+        padding: 60px 0;
+        .sec-three-text-content{
+            padding: 60px 0;
+            h2{
+                font-size: 80px;
+                letter-spacing: 1px;
+                font-weight: 300;
+                color: #fff;
+                width: 100%;
+            }
+            p{
+                font-size: 24px;
+                margin-bottom: 40px;
+                color: #fff;
+
+            }
+            button{
+                border: 0;
+                height:58px ;
+                width: 195px;
+                background-color: #6fab1b;
+                color: #fff;
+            }
+        }
+    }
+}
+
+#sec-four{
+    background-color: #F8F9FA;
+    padding: 60px 0;
+    .sec-four-content{
+        .sec-four-hero-text{
+            text-align: center;
+            h1{
+                font-size: 32px;
+                font-weight: 400;
+            }
+        }
+        .sec-four-card-content{
+            text-align: center;
+            img{
+                width: 90px;
+                border-radius: 50%;
+                margin: 0 auto;
+                display: inline-block;
+                text-align: center;
+            }
+        }
+    }
+}
+
+footer{
+    background-color: #393E46;
+    padding: 60px 0;
+    .footer-content{
+        padding: 60px 0;
+        .footer-top{
+            padding: 40px 0;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 30px   ;
+            ul{
+                list-style: none;
+                li{
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 400px) {
+    #sec-one {
+        display: flex;
+        height: auto;
+        align-items: center;
+        background: url("/assets/img/hero_bg_1.jpg");
+
+        .sec-one-content {
+            display: flex;
+            justify-content: center;
+
+            .sec-one-main-content {
+                text-align: center;
+
+                h1 {
+                    font-size: 45px;
+                    color: #fff;
+                    font-weight: 300;
+                    letter-spacing: 1px;
+                }
+
+                p {
+                    font-size: 24px;
+                    color: #fff;
+                }
+
+                .sec-one-btns {
+                    display: flex;
+                    gap: 10px;
+                    justify-content: center;
+                    flex-wrap: wrap;
+
+                    .button1 {
+                        height: 58px;
+                        width: 172px;
+                        border: 1px solid #7cbd1e;
+                        background-color: #7cbd1e;
+                        color: #fff;
+                    }
+
+                    .button2 {
+                        height: 58px;
+                        width: 187px;
+                        border: 1px solid #fff;
+                        background-color: transparent;
+                        color: #fff;
+
+                    }
+                }
+
+            }
+        }
+    }
+
+    #sec-two {
+        padding: 80px 0;
+    
+        .sec-two-content {
+            padding: 40px 0;
+    
+            h2 {
+                text-align: center;
+                margin-bottom: 60px;
+            }
+    
+            .cards {
+                .cardd {
+                    margin: 20px 0;
+    
+                    .card-content {
+                        padding: 86px 0 !important;
+                        text-align: center;
+                        border: 1px solid green;
+                        width: 250px;
+                        margin: 0 auto;
+    
+                        i {
+                            color: #6fab1b;
+                            font-size: 60px;
+                        }
+    
+                        h4 {
+                            margin-top: 30px;
+                        }
+    
+                        button {
+                            width: 141px;
+                            height: 42px;
+                            background-color: #6fab1b;
+                            border: 1px solid #6fab1b;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #sec-three .sec-three-content .sec-three-text-content h2{
+        font-size: 66px;
+    }
+}
